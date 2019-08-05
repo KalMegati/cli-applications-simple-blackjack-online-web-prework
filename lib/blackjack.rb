@@ -27,6 +27,7 @@ def initial_round
   second = deal_card
   start_total = first+second
   display_card_total(start_total)
+  start_total
 end
 
 def hit?
