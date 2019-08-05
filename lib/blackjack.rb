@@ -24,7 +24,7 @@ end
 
 def initial_round
   start_total = deal_card+deal_card
-  display_card_total(start_total)
+  display_card_total(deal_card+deal_card)
   start_total
 end
 
